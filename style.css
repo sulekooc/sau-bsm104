@@ -1,0 +1,40 @@
+body{        
+    margin:0;
+    padding:0;
+ }
+ .navbar {
+	opacity: 0.8;
+	border-bottom: 1px solid #fff;
+}
+
+ .container{
+     width: 80%;
+     margin: 0 auto;
+ }
+ nav a{
+     color: #fff;
+     text-decoration: none;
+     padding: 7px 25px;
+     display: inline-block;
+ }
+ .info{
+     background-color: rgb(56, 56, 56);
+     height:600px;
+ }
+ .footer {
+	bottom: 0;
+	width: 100%;
+	background: #333;
+	padding: 10px 0;
+	color: #fff;
+}
+ .alert{
+    border:1px #CCE5FF solid;
+    width:30%; 
+    height:10%; 
+    margin-left: 0px;
+    background-color:#CCE5FF; 
+    border-radius:10px; 
+    margin-bottom:30px;  
+    margin-top:15px;
+  }
