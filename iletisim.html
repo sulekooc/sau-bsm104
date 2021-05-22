@@ -1,93 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>İletişim</title>
-    <link href="css/style.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-
-</head>
-<body>
-	<style>
-		body {
-			background: #f5f8fa
-		}
-
-		@media (min-width:1200px) {
-			.container {
-				max-width: 1200px;
-			}
-		}
-	</style>
-	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-		<div class="container-fluid">
-			<a class="navbar-brand px-3" href="https://www.sakarya.edu.tr/" target="_blank">SAU</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="index.html">Home</a>
-					</li>
-					<li class="nav-item px-3">
-						<a class="nav-link px-3" href="sehrim.html">Şehrim</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link px-3" href="mirasımız.html">Mirasımız</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link px-3" href="ozgecmis.html">Özgeçmiş</a>
-					</li>
+  <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">          
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+			integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>İletisim</title>
+  </head>
+  <body>
+		<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand px-3" href="https://www.sakarya.edu.tr/" target="_blank">SAU</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+						</li>
+						<li class="nav-item px-3">
+							<a class="nav-link px-3" href="sehrim.html">Şehrim</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-3" href="mirasımız.html">Mirasımız</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-3" href="ozgecmis.html">Özgeçmiş</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								İlgi Alanlarım
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#">Spor</a></li>
+								<li><a class="dropdown-item" href="#">Film</a></li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li><a class="dropdown-item" href="#">Something else here</a></li>
+							</ul>
+						</li>
+					</ul>
 					<li class="nav-item">
 						<a class="nav-link px-3" href="iletisim.html">İletişim</a>
 					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-							aria-expanded="false">
-							İlgi Alanlarım
-						</a>
-						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">Spor</a></li>
-							<li><a class="dropdown-item" href="#">Film</a></li>
-							<li>
-								<hr class="dropdown-divider">
-							</li>
-							<li><a class="dropdown-item" href="#">Something else here</a></li>
-						</ul>
-					</li>
-				</ul>
-				<form class="d-flex">
-					<input class="form-control form-control-sm me-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn  btn-sm btn-info" type="submit">Search</button>
-				</form>
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="login.html">Login</a>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input class="form-control form-control-sm me-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn  btn-sm btn-info" type="submit">Search</button>
+					</form>
+				</div>
 			</div>
-		</div>
-	</nav>
-    <div class="info">
-        <img src="img/login.png" style="margin-top:10%;margin-left:43%;">
-
+		</nav>
+    <div class="iletişim" style="background-color: #f0f0f0; padding: 5%;" >
+        <form action="adminIletisim.php" method="POST" name="Form" onsubmit="return isItEmpty()" style="padding: 20px; text-align: center; background-color: white; margin-right: 20%; margin-left: 20%; border: 1px solid black;border-left: 15px solid #005e17; border-radius: 5px;">	
+          <div class="row">
+            <div class="col">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="">İsim ve Soyisim</span>
+                </div>
+                <input type="text" name="isim" placeholder="isminiz" class="form-control">
+                <input type="text" name="soyisim" placeholder="Soyisminiz" class="form-control">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Telefon Numaranız</span>
+                  <span class="input-group-text" id="basic-addon1">+90</span>
+                </div>
+                <input type="number" class="form-control" placeholder=" 5xx xxx xxxx" name="telefon" aria-describedby="basic-addon1">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Cinsiyetiniz:</span>
+                </div>
+                <div class="input-group-append">
+                  <div class="input-group-text">
+                    <input type="radio" name="cinsiyet" value="erkek">Erkek
+                  </div>
+                  <div class="input-group-text">
+                    <input type="radio" name="cinsiyet" value="kadın">Kadın
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Amaç: </span>
+                </div>
+                <div class="input-group-append">
+                  <div class="input-group-text">
+                    <input type="checkbox" name="amaç[]" value="istek">İstek
+                  </div>
+                  <div class="input-group-text">
+                    <input type="checkbox" name="amaç[]" value="öneri">Öneri
+                  </div>
+                  <div class="input-group-text">
+                    <input type="checkbox" name="amaç[]" value="şikayet">Şikayet
+                  </div>
+                  <div class="input-group-text">
+                    <input type="checkbox" name="amaç[]" value="diğer">Diğer
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <label class="input-group-text" for="inputGroupSelect01">Yazı Hakkında</label>
+                </div>
+                <select class="custom-select" name="konu" id="inputGroupSelect01">
+                  <option selected>Konu?</option>
+                  <option value="sayfa yönetimi">Sayfa yönetimi</option>
+                  <option value="tasarım">Tasarım</option>
+                  <option value="kodlama">Kodlama</option>
+                </select>
+                <select class="custom-select" name="kime" id="inputGroupSelect01">
+                  <option selected>Kime?</option>
+                  <option value="sayfa yönetimi">Sayfa yöneticisi</option>
+                  <option value="tasarım">Programcı</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Mesajınız</span>
+                </div>
+                <textarea class="form-control" name="mesaj" aria-label="With textarea"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <button class="btn btn-outline-secondary" type="submit">Gönder</button>
+                </div>
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="reset">Temizle</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
     </div>
-    <div class="form-group">
-        <label for="name">İsim</label>
-        <input type="text" name="name" class="form-control" placeholder="İsminizi Girin">							
-        <small class="form-text text-muted">Zorunlu alan</small>
-    </div>
+  </body>
+  <script>
+    function isItEmpty() {
+      var a = document.forms["Form"]["isim"].value;
+      var b = document.forms["Form"]["soyisim"].value;
+      var c = document.forms["Form"]["telefon"].value;
+      var d = document.forms["Form"]["cinsiyet"].value;
+      var e = document.forms["Form"]["amaç[]"].value;
+      var f = document.forms["Form"]["konu"].value;
+      var g = document.forms["Form"]["kime"].value;
+      var h = document.forms["Form"]["mesaj"].value;
+      if (a == null || a == "", b == null || b == "", c == null || c == "", d == null || d == "" , e == null || e == "" , f == null || f == "" , g == null || g == "" , h == null || h == "") {
+        alert("Tüm alanlar dolu olmalıdır!");
+        return false;
+      }
+      return true;
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    <div class="form-group">
-        <label for="email">Email</label>
-        <input type="text" name="email" class="form-control" placeholder="Emailinizi girin.">
-        <small class="form-text text-muted">Zorunlu alan</small>
-    </div>
-
-    <div class="form-group">
-        <label for="message">Mesaj</label>
-        <textarea name="message" id="message" rows="5" class="form-control"></textarea>
-    </div>
-
-    <button class="btn btn-info" type="reset" id="submit" name="submit" value="Reset" onclick="check()">Temizle</button>
-
-    <button class="btn btn btn-info" type="submit" id="sub">Gönder</button>
 </html>

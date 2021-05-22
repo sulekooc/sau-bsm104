@@ -38,3 +38,287 @@ body{
     margin-bottom:30px;  
     margin-top:15px;
   }
+
+
+  .adminIletisimTablo{
+    border: 2px solid #005e17;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 3px 3px 4px grey;
+    margin: 5%;
+    width: 5%;
+  }
+  
+  .adminIletisim{
+    padding: 20px;
+    background-color: #eeeeee;
+  }
+  
+  #body {
+      font-family: Avenir, Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: black;
+      text-align: center;
+    }
+  
+    .btn-outline-secondary {
+      color: green;
+      border-color: #6c757d;    
+    }
+  
+    .btn-outline-secondary:hover {
+      color: white;
+      background-color: green;
+    }
+  
+    .cerceve{
+      text-align: center;
+      background-color: green;
+      color: white;
+    }
+    .cerceve:hover{
+      background-color: white;
+      border: 1px solid green;
+      color: black;
+      box-shadow: 2px 2px 4px grey;
+      z-index: +1;
+    }
+    #footer {
+      background: rgba(46, 62, 80, 0.9);
+      height: 60px;
+      text-align:center;
+      color: #00A63E;
+    }
+  
+    .kutuButon,.kutuButon:hover{
+      background-color: white;
+      border: 1px solid white;
+      color: green;
+    }
+  
+    hr{
+      color: #0C853F;
+    } 
+  
+    @font-face {
+      font-family: fontum;
+      src: url(font.ttf);
+    }
+    .logo{
+      font-family: fontum;
+      font-size: xx-large;
+      margin-left: 5%;
+      margin-right: 19%;
+      align: left;
+      color: #0C853F;
+    }
+    
+    .page{
+        font-size: x-large;
+        text-shadow: 0px 1px 2px #8f8f8f;
+    }
+  
+    .icon{
+      width: 80px;
+      padding: 10px;
+    
+    }
+    
+    .login{
+      text-align: center;
+      background-color: #eeeeee;
+      padding: 5%;
+    }
+  
+  .loginform{
+    width: 40%; height: 50%; text-align: center;
+    border: 1px solid black;
+    border-left: 15px solid #005e17;
+    border-radius: 5px;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding: 20px;
+    background-color: white;
+  }
+  
+    .icons{
+      display: inline;
+      position: relative;
+    }
+  
+    .icon:hover{
+      width: 90px;
+      height: 90px;
+    }
+  
+    #sekmeler{
+      display: inline;
+      position: relative;
+    }
+    
+    #login{
+      display: inline;
+      position: relative;
+      left: 28%;
+      border: 2px solid #00A63E ;
+      border-radius:  5px;
+      padding: 3px;
+    }
+    
+    
+    nav {
+      background-color: white;
+      border-bottom-style: solid;
+      border-bottom-width: 3px;
+      border-bottom-color: #00A63E;
+      display: block;
+    }
+    
+      p{
+          padding: 10px;
+      }
+  
+    #footer {
+      background-color: white;
+      border-top-style: solid;
+      border-top-width: 3px;
+      border-top-color: #00A63E;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+    
+    .picture{
+      width: 16%;
+      height: 20%;
+      margin-left: 42%;
+      margin-right: 42%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      border: 10px solid ;
+      border-radius: 5px;
+      border-color: rgb(5, 68, 30)
+    }
+  
+    .links{
+      color: black;
+      text-decoration-line: none;
+    }
+    
+  table{
+    margin: 20px;
+  }
+  
+    .links:hover{
+      color: #00A63E;
+      text-decoration-line: none;
+    }
+  
+    .cvLinks{
+      text-decoration: none;
+      color: white;
+    }
+  
+    .cvLinks:hover{
+      color: white;
+      text-decoration: none;
+    }
+    
+    .icerik{
+      border: 10px solid ;
+      border-radius: 5px;
+      border-color: rgb(2, 54, 23);
+      background-color: white;
+      left: 43%;
+      width: 60%;
+      height: 10%;
+      margin-left: 20%;
+      margin-right: 20%;
+      margin-bottom: 2%;
+    }
+     
+    .home{ 
+      background-image: url(pictures/background.jpeg);
+      background-repeat: repeat;
+    }
+    
+    nav a {
+      font-weight: bold;
+      text-decoration: none;
+      color: #00A63E;
+      padding: 5px;
+    }
+  
+    
+      nav a:hover {
+      border: 2px solid #0C853F;
+      background-color: #00A63E;
+      text-decoration: none;
+      color: white;
+      border-radius: 5px;
+      padding: 3px;
+      box-shadow: 3px 3px  5px  #8f8f8f ;
+    }
+    
+  
+  
+    
+  
+    .flip {
+      position: relative;
+    }
+    .flip > .front,
+    .flip > .back {
+      display: block;
+      transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition-duration: 0.5s;
+      transition-property: transform, opacity;
+    }
+    .flip > .front {
+      transform: rotateY(0deg);
+    }
+    .flip > .back {
+      position: absolute;
+      opacity: 0;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 95%;
+      transform: rotateY(-180deg);
+    }
+    .flip:hover > .front {
+      transform: rotateY(180deg);
+    }
+    .flip:hover > .back {
+      opacity: 1;
+      transform: rotateY(0deg);
+    }
+    .flip.flip-vertical > .back {
+      transform: rotateX(-180deg);
+    }
+    .flip.flip-vertical:hover > .front {
+      transform: rotateX(180deg);
+    }
+    .flip.flip-vertical:hover > .back {
+      transform: rotateX(0deg);
+    }
+    
+    .flip {
+      position: relative;
+      display: inline-block;
+      text-align: center;
+    }
+    .flip > .front,
+    .flip > .back {
+      display: block;
+      color: white;
+      width: inherit;
+      background-size: cover !important;
+      background-position: center !important;
+      background: #313131;
+      border-radius: 3px;
+    }
+  
+  
